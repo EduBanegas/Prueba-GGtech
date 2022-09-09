@@ -1,0 +1,50 @@
+:root {
+	--TextColor1: #000;
+	--TextColor2: #3e4859;
+	--TextColor3: #606060;
+	--TextColor4: #b3b3b3;
+
+	--PrimaryColor1: #cb7820;
+	--PrimaryColor2: #dd8629;
+	--PrimaryColor3: #e19341;
+	--PrimaryColor4: #e5a159;
+	--PrimaryColor5: #e9ae70;
+	--PrimaryColor6: #f7ebde;
+
+	--SecondaryColor1: #ffffff;
+
+	--ErrorColor1: #ff2525;
+	--ErrorColor2: #a01325;
+	--ErrorColor3: #b81b30;
+	--ErrorColor4: #cd273d;
+	--ErrorColor5: #dd384e;
+	--ErrorColor6: #e95065;
+
+	--WarningColor1: #ff7d00;
+	--WarningColor2: #a08d13;
+	--WarningColor3: #b8a31b;
+	--WarningColor4: #cdb627;
+	--WarningColor5: #ddc738;
+	--WarningColor6: #e9d550;
+
+	--SuccessColor1: #0cc665;
+	--SuccessColor2: #6ca013;
+	--SuccessColor3: #7eb81b;
+	--SuccessColor4: #90cd27;
+	--SuccessColor5: #a1dd38;
+	--SuccessColor6: #b1e950;
+
+	--NeutralColor1: #111827;
+	--NeutralColor2: #374151;
+	--NeutralColor3: #4b5563;
+	--NeutralColor4: #706967;
+	--NeutralColor5: #b8b4b4;
+	--NeutralColor6: #dddfe2;
+
+	--AccentColor1: #c1e5c0;
+	--AccentColor2: #c0dae5;
+	--AccentColor3: #fdd9d9;
+	--AccentColor4: #ffc3d8;
+	--AccentColor5: #a0dcff;
+	--AccentColor6: #d9e8ef;
+}

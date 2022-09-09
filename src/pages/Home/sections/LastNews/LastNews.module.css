@@ -1,0 +1,36 @@
+/* Last News */
+.lastNews {
+	grid-column: 1/-1;
+
+	padding-right: 0em !important;
+}
+
+/* Subtitle */
+.lastNews h4 {
+	grid-column: 1/8;
+
+	font: var(--subtitle-2-semibold);
+	color: var(--TextColor3);
+}
+
+.lastNews h6 {
+	grid-column: 1/-1;
+
+	font: var(--subtitle-2-semibold);
+	color: var(--TextColor4);
+
+	text-align: center;
+	margin: 2em 0;
+}
+
+/* Desktop - Media queries */
+@media screen and (min-width: 1024px) {
+	.lastNews {
+		grid-column: 3/-3;
+		padding: 0 0 !important;
+	}
+
+	.lastNews h4 {
+		grid-column: 1/4;
+	}
+}
