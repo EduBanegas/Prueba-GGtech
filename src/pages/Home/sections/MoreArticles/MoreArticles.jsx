@@ -74,6 +74,7 @@ export default function MoreArticles({ articles }) {
 				pageNeighbours={0}
 				handlePageChange={handlePageChange}
 			/>
+			{!articlesFound.length && <h6>No se encontraron noticias recientes</h6>}
 		</section>
 	);
 }
