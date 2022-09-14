@@ -31,7 +31,7 @@
 /* Desktop - Media queries */
 @media screen and (min-width: 1024px) {
 	.moreArticles {
-		grid-column: 3/-3;
+		grid-column: 2/-2;
 		padding: 0 0 !important;
 	}
 
@@ -41,5 +41,11 @@
 
 	.moreArticles .searchInput {
 		grid-column: 1/4;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.moreArticles {
+		grid-column: 3/-3;
 	}
 }

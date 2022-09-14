@@ -9,7 +9,7 @@ import Pagination from '../../../../components/common/Pagination/Pagination';
 import Table from './components/Table/Table';
 
 export default function MoreArticles({ articles }) {
-	if (!Array.isArray(articles) || !articles.length) return null;
+	if (!articles.length) return null;
 
 	const [allArticles, setAllArticles] = useState(articles);
 
@@ -70,11 +70,11 @@ export default function MoreArticles({ articles }) {
 
 			<Pagination
 				totalRecords={articlesFound.length}
-				pageLimit={5}
+				pageLimit={4}
 				pageNeighbours={0}
 				handlePageChange={handlePageChange}
 			/>
-			{!articlesFound.length && <h6>No se encontraron noticias recientes</h6>}
+			{!articlesFound.length && <h6>No se encontraron articulos recientes</h6>}
 		</section>
 	);
 }

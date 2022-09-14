@@ -68,7 +68,7 @@
 }
 
 /* Paragraph */
-.hero p {
+.hero .cta {
 	font: var(--body-1-medium);
 	color: var(--PrimaryColor4);
 
@@ -82,7 +82,7 @@
 	height: 5em;
 	width: 32em;
 
-	border: 1px solid var(--PrimaryColor1);
+	border: 1px solid var(--primary-color-1);
 	border-radius: 1em;
 
 	background-color: rgba(233, 176, 114, 0.3);
@@ -90,13 +90,69 @@
 
 .hero button p {
 	font: var(--body-2-semibold);
-	color: var(--PrimaryColor1);
+	color: var(--primary-color-1);
 
 	margin: auto;
 }
 
 /* Desktop - Media queries */
 @media screen and (min-width: 1024px) {
+	.hero {
+		height: 100vh;
+
+		padding: 0em 0em;
+		row-gap: 4em;
+	}
+
+	/* Logo and texts container */
+	.hero .logoAndTexts img {
+		width: 16em;
+		height: 16em;
+	}
+
+	.hero .logoAndTexts div h3 {
+		font: var(--headline-1-bold);
+		font: var(--headline-2-bold);
+		color: #fff;
+	}
+
+	.hero .logoAndTexts div p {
+		font: var(--subtitle-2-light);
+		color: #fff;
+	}
+
+	/* Paragraph */
+	.hero .cta {
+		font: var(--subtitle-1-light);
+		color: var(--primary-color-1);
+
+		width: 40%;
+
+		text-align: center;
+	}
+
+	/* Button */
+	.hero button {
+		height: 5em;
+		width: 32em;
+
+		border: none;
+		border-radius: 1em;
+
+		background-color: var(--primary-color-1);
+	}
+
+	.hero button p {
+		font: var(--body-1-semibold);
+		color: #fff;
+
+		text-transform: uppercase;
+
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 1440px) {
 	.hero {
 		height: 100vh;
 
@@ -112,42 +168,15 @@
 
 	.hero .logoAndTexts div h3 {
 		font: var(--headline-1-bold);
-		color: #fff;
 	}
 
 	.hero .logoAndTexts div p {
 		font: var(--headline-3);
 		line-height: 0;
-		color: #fff;
 	}
 
 	/* Paragraph */
 	.hero .cta {
 		font: var(--headline-2-light);
-		color: var(--PrimaryColor1);
-
-		width: 40%;
-
-		text-align: center;
-	}
-
-	/* Button */
-	.hero button {
-		height: 5em;
-		width: 32em;
-
-		border: none;
-		border-radius: 1em;
-
-		background-color: var(--PrimaryColor1);
-	}
-
-	.hero button p {
-		font: var(--body-1-semibold);
-		color: #fff;
-
-		text-transform: uppercase;
-
-		margin: auto;
 	}
 }

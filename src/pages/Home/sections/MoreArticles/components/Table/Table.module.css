@@ -11,7 +11,7 @@
 
 /* THead */
 .table thead {
-	background-color: var(--PrimaryColor1);
+	background-color: var(--primary-color-1);
 }
 
 .table thead tr {

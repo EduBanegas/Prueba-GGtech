@@ -34,7 +34,7 @@
 }
 
 .table div thead {
-	background-color: var(--PrimaryColor6);
+	background-color: var(--primary-color-6);
 }
 
 .table div tbody {
@@ -66,12 +66,12 @@
 
 .table div thead tr td p {
 	font: var(--body-2-semibold);
-	color: var(--TextColor3);
+	color: var(--text-color-3);
 }
 
 .table div tbody tr td p {
 	font: var(--body-2-medium);
-	color: var(--TextColor2);
+	color: var(--text-color-2);
 }
 
 @media screen and (min-width: 1024px) {

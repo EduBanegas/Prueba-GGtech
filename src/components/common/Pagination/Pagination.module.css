@@ -38,12 +38,12 @@ nav .pagination .pageItem {
 
 nav .pagination .pageItem:hover {
 	color: #fff;
-	background-color: var(--PrimaryColor1);
+	background-color: var(--primary-color-1);
 }
 
 .Action {
 	color: #fff;
-	background-color: var(--PrimaryColor1);
+	background-color: var(--primary-color-1);
 }
 
 /* a */

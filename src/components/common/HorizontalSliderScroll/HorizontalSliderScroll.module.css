@@ -9,7 +9,7 @@
 	grid-auto-columns: 36em;
 	column-gap: 2em;
 
-	grid-template-rows: 60em;
+	grid-template-rows: 64em;
 
 	padding-bottom: 1em;
 	padding-right: 2em;
@@ -22,5 +22,11 @@
 		grid-auto-columns: auto;
 
 		overflow-x: hidden;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.horizontalSliderScroll {
+		grid-template-rows: 60em;
 	}
 }

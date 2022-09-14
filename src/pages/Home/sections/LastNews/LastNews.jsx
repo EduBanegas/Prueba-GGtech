@@ -9,9 +9,11 @@ export default function LastNews({ articles }) {
 	const qty = 4;
 	const lastNews = [];
 
-	for (let index = 0; lastNews.length < qty; index++) {
-		if (articles[index].lastNews === true) {
-			lastNews.push(articles[index]);
+	if (articles.length) {
+		for (let index = 0; lastNews.length < qty; index++) {
+			if ((articles.length > 0) & (articles[index].lastNews === true)) {
+				lastNews.push(articles[index]);
+			}
 		}
 	}
 
